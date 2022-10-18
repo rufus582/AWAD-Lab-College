@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-mongoose.connect("mongodb+srv://TODO-sjp:TODOdb123@cluster0.cviz2u6.mongodb.net/todoList", {useNewUrlParser: true}).then(() => {
+mongoose.connect("Use ur own connection string", {useNewUrlParser: true}).then(() => {
     console.log("Connected to DB")
 }).catch(err => {
     console.log('DB Error!!!'+err)
